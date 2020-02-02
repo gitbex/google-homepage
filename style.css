@@ -1,0 +1,253 @@
+body{
+    font-family: Sans; 
+    margin: 0;
+    height:100%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-top: 8px;
+}
+
+
+nav ul{
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+list-style-type: none;
+}
+nav ul li{
+    margin-left: 18px;
+    font-size: 12px;
+    text-decoration: none;
+}
+nav ul li a{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    opacity: .85;
+    text-decoration: underline;
+}
+nav ul li a img{
+    color: rgba(0,0,0,0.87);
+    opacity: 0.7;
+}
+
+nav li button{
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: #4285f4;
+    position: absolute;
+    top: 16.5px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 13px;
+}
+nav li button:hover {
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+section {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 78px;
+ margin-left: 2px;
+ margin-bottom: 205px;
+}
+
+.search{
+    width: 556px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #dfe1e5;
+    margin-bottom: 30px;
+}
+.search:hover{
+  -webkit-box-shadow: 1px 1px 11px -6px rgba(0,0,0,1);
+  -moz-box-shadow: 1px 1px 11px -6px rgba(0,0,0,1);
+  box-shadow: 1px 1px 11px -6px rgba(0,0,0,1);
+}
+
+.fa-search{
+    margin-top: 10px;
+    color: #9aa0a6;
+    margin-right: 5px;
+}
+.fa-microphone{
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #4285f5;
+    cursor: pointer;
+}
+#tooltip {
+    position: relative ;
+  }
+  #tooltip:hover::after {
+    content: "Search by voice" ;
+    position: absolute ;
+    top: 1.1em ;
+    left: 1em ;
+    width: 80px;
+    border: none ;
+    padding: 8px ;
+    color: white;
+    background-color: rgb(51, 47, 47);
+    z-index: 1;
+    font-size: 12px;
+  }
+
+section form input[type="search"]{
+    display: block;
+    width: 527px;
+    height: 34px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    line-height: 34px;
+    padding-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub input[type="submit"]{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    width: auto;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 5px;
+    border-radius: 4px;
+    margin-left: 5px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sub input[type="submit"]:hover{
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
+    color: #222;
+    overflow: hidden;
+    outline: 0px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+.sub input[type="submit"]:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+section p{
+    font-size: 12px;
+    margin-top: 30px;
+}
+section p a{
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: none;
+}
+section p a:hover, a:active {
+    text-decoration: underline;
+}
+section p a:visited {
+    color: #609;
+}
+p{
+    margin: 0;
+}
+footer{
+    background: #f2f2f2;
+    margin-top:auto;
+}
+footer div{
+    color: rgba(0,0,0,.54);
+    display: block;
+    border-top: 1px solid #e4e4e4;
+}
+ .uzb{
+    margin-left: 30px;
+    text-align: left;
+ }
+ .uzb p{
+     font-size: 14px;
+     line-height: 40px;
+ }
+
+.footmenu{
+    display: flex;
+    justify-content: space-between;
+}
+.footmenu ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footmenu ul li:not(:first-child){
+    margin-left: 25px;
+}
+.footmenu a{
+    font-size: 13px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #5f6368;
+    display: inline-block;
+    letter-spacing: -0.5px;
+}
+
+.footmenu a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b{
+    border: red;
+}
+
+.a{
+    background-color: pink;
+}
